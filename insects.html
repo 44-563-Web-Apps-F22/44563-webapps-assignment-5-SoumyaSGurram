@@ -13,6 +13,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        thead:hover{
+           background-color:blue;
+        }
+    </style>
 </head>
 <body>
 <h1>Insects by Soumya Sri Gurram</h1>
@@ -34,6 +39,7 @@
         <div class="col-md">Moths</div>
     </div>
     </div>
+
     <p> Insects row breaks first . The breakpoint of "col-md" is 490 and the breakpoint of "col-sm-2" is 648. When we reducing the size of the page insects row and letters row breaks.</p>
     <div class="container">
     <img src="Green Lacewings" class="img-fluid" width="400" height="400">
@@ -41,11 +47,60 @@
     <img src="Uliodon" class="img-fluid" width="400" height="400">
     </div>
     <div class="container">
-    <img src="Green Lacewings" class="img-thumbnail" width="400" height="400">
-    <img src="Rhino beetle" class="img-thumbnail" width="400" height="400">
-    <img src="Uliodon" class="img-thumbnail" width="400" height="400">
+    <img src="Green Lacewings" class="img-thumbnail" width="400" height="400" >
+    <img src="Rhino beetle" class="img-thumbnail" width="400" height="400" >
+    <img src="Uliodon" class="img-thumbnail" width="400" height="400" >
     </div>
-    
+    <table class="table table-hover table-bordered table-sm table-striped">
+        <caption>TABLE</caption>
+        <thead>
+          <tr>
+            <th scope="col">Letter</th>
+            <th scope="col">Insect</th>
+            <th scope="col">City</th>
+            <th scope="col">River</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr class="table table-primary table-striped">
+            <th scope="row">G</th>
+            <td>Green Lacewings</td>
+            <td>Galveston</td>
+            <td>Gila River</td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row">U</th> >
+            <td>Uliodon</td>
+            <td>Urbana</td>
+            <td>Utukok River</td>
+          </tr>
+          <tr class="table-danger">
+            <th scope="row">R</th>
+            <td>Rhino beetle</td>
+            <td>Rochester </td>
+            <td>Rhine River</td>
+          </tr>
+          <tr class="table-warning">
+            <th scope="row">R</th>
+            <td>Robber fly</td>
+            <td>Roseville</td>
+            <td>Rhone River</td>
+          </tr>
+          <tr class="table-dark">
+            <th scope="row">A</th>
+            <td>Aphid</td>
+            <td>Arizona</td>
+            <td> Albion River</td>
+          </tr>
+          <tr class="table-info">
+            <th scope="row">M</th>
+            <td>Moths</td>
+            <td>Missouri</td>
+            <td>Mississippi river </td>
+          </tr>
+        </tbody>
+      </table>
+      
 
 
 
